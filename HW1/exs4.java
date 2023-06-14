@@ -66,5 +66,5 @@ public class exs4 {
     }
 
 
-
+  scan.close();
 }

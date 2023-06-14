@@ -21,5 +21,7 @@ public class exs1 {
             System.out.println(multiply);
         }
         System.out.printf("Сумма = " + summ + ", произведение  = " + multiply);
+        inputnum.close();
     }
+    
 }
