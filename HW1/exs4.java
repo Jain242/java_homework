@@ -62,9 +62,9 @@ public class exs4 {
         }
 
 
-
+         scan.close();
     }
 
 
-  scan.close();
+ 
 }
