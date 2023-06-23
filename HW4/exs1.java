@@ -81,10 +81,7 @@ public class exs1 {
                 digit1 = digit1 + ch1.toString();
                 digit2 = digit2 + ch2.toString();           
             }
-            System.out.println(digit1);
-            System.out.println(digit2);
             StringBuilder resultstr1 = new StringBuilder(Integer.toString(Integer.parseInt(digit1)*znak1 +  Integer.parseInt(digit2)*znak2));
-            System.out.println(resultstr1);
             LinkedList <Integer> ls = new LinkedList<>();
             while(!resultstr1.isEmpty()){
                 ls.add(Character.digit(resultstr1.charAt(0),10));
